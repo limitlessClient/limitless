@@ -1,0 +1,24 @@
+{
+  "tag": "v1.1.20",
+  "version": "1.1.20",
+  "date": "2026-11-11",
+  "launcher": {
+    "file": "LimitlessLauncher.exe",
+    "sha256": "a2f09db5f60937ea38f9d55c9f04846b6a4b5cc13c45c17b240272a38718f90c",
+    "size": 5867520,
+    "version": "1.8.1"
+  },
+  "client": {
+    "file": "limitless-client.jar",
+    "sha256": "e3b53e1843a88b3d9e801a8181a873d61886012d7f1ba2d22e843ecec500b0e3",
+    "size": 6014530
+  },
+  "mods": [
+    {
+      "slug": "sodium",
+      "file": "sodium.jar",
+      "sha1": "62a70961a5b3e06938e06ab5f2dc4c5a51cf3323",
+      "size": 1885572
+    }
+  ]
+}

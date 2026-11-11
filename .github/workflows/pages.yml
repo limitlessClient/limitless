@@ -1,0 +1,61 @@
+name: Publish website and release data
+on:
+  push:
+    branches: [main]
+  release:
+    types: [published, edited, deleted]
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: write
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Generate shared release metadata
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: node scripts/sync-releases.mjs
+      - name: Save release metadata
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add manifest.json devlog.json CHANGELOG.md
+          if ! git diff --cached --quiet; then
+            git commit -m "Update release metadata"
+            git pull --rebase origin main
+            git push origin main
+          fi
+      - name: Deploy the updated main commit after a release
+        if: github.event_name == 'release'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run pages.yml --ref main
+      - uses: actions/configure-pages@v5
+        if: github.event_name != 'release'
+      - name: Prepare public website
+        if: github.event_name != 'release'
+        run: |
+          mkdir _site
+          cp index.html bg.jpg icon.png .nojekyll manifest.json devlog.json CHANGELOG.md _site/
+      - uses: actions/upload-pages-artifact@v4
+        if: github.event_name != 'release'
+        with:
+          path: _site
+      - uses: actions/deploy-pages@v4
+        if: github.event_name != 'release'
+        id: deploy
