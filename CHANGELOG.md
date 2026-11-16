@@ -1,5 +1,12 @@
 # Limitless Client
 
+## Limitless 1.1.23
+
+﻿Client 1.1.23
+
+- fix(obsidian): fix shulker empty lore check & quick move buy, prioritize standing on obsidian over pits/lava
+
+
 ## Limitless 1.1.22
 
 ﻿Client 1.1.22
