@@ -1,5 +1,11 @@
 [
   {
+    "name": "Limitless 1.1.24",
+    "tag_name": "v1.1.24",
+    "published_at": "2026-11-16T16:52:16Z",
+    "body": "﻿Client 1.1.24\n\n- fix(obsidian): speed up xp buying, prevent pathfinder loop and fix false-positive hole skip\r\n"
+  },
+  {
     "name": "Limitless 1.1.23",
     "tag_name": "v1.1.23",
     "published_at": "2026-11-16T12:17:26Z",

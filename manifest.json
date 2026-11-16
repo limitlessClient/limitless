@@ -1,6 +1,6 @@
 {
-  "tag": "v1.1.23",
-  "version": "1.1.23",
+  "tag": "v1.1.24",
+  "version": "1.1.24",
   "date": "2026-11-16",
   "launcher": {
     "file": "LimitlessLauncher.exe",
@@ -10,8 +10,8 @@
   },
   "client": {
     "file": "limitless-client.jar",
-    "sha256": "4b8c2f9e56d19ca10343ea4a84c016040c631663627c7f96bc509c4780d4cb7e",
-    "size": 6150913
+    "sha256": "d8d04e83bb8f71409075ed75607a8b5cdb50ace032db9afc5d2250b03e3eec7a",
+    "size": 6151618
   },
   "mods": [
     {

@@ -1,5 +1,12 @@
 # Limitless Client
 
+## Limitless 1.1.24
+
+﻿Client 1.1.24
+
+- fix(obsidian): speed up xp buying, prevent pathfinder loop and fix false-positive hole skip
+
+
 ## Limitless 1.1.23
 
 ﻿Client 1.1.23
