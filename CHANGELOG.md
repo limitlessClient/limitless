@@ -1,5 +1,12 @@
 # Limitless Client
 
+## Limitless 1.1.21
+
+﻿Client 1.1.21
+
+- Bundle netty proxy handlers into the client jar
+
+
 ## Limitless 1.1.20
 
 ### Клиент 1.1.20
