@@ -1,5 +1,11 @@
 [
   {
+    "name": "Limitless 1.1.22",
+    "tag_name": "v1.1.22",
+    "published_at": "2026-11-16T11:44:39Z",
+    "body": "﻿Client 1.1.22\n\n- fix(obsidian): fix auction price parsing, hold auction open 1-1.5s, fix shulker filter and pickup click\n- fix(release): generate manifest.json and include in release assets\r\n"
+  },
+  {
     "name": "Limitless 1.1.21",
     "tag_name": "v1.1.21",
     "published_at": "2026-11-15T17:18:12Z",

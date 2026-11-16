@@ -1,5 +1,13 @@
 # Limitless Client
 
+## Limitless 1.1.22
+
+﻿Client 1.1.22
+
+- fix(obsidian): fix auction price parsing, hold auction open 1-1.5s, fix shulker filter and pickup click
+- fix(release): generate manifest.json and include in release assets
+
+
 ## Limitless 1.1.21
 
 ﻿Client 1.1.21
