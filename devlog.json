@@ -1,5 +1,11 @@
 [
   {
+    "name": "Limitless 1.1.26",
+    "tag_name": "v1.1.26",
+    "published_at": "2026-11-17T19:00:03Z",
+    "body": "Client 1.1.26\n\n- fix: handle supported descents and isolate overlay render pipelines\r\n"
+  },
+  {
     "name": "Limitless 1.1.25",
     "tag_name": "v1.1.25",
     "published_at": "2026-11-17T18:18:41Z",

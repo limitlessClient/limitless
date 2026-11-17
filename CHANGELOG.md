@@ -1,5 +1,12 @@
 # Limitless Client
 
+## Limitless 1.1.26
+
+Client 1.1.26
+
+- fix: handle supported descents and isolate overlay render pipelines
+
+
 ## Limitless 1.1.25
 
 ### Клиент 1.1.25
