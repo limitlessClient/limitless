@@ -1,5 +1,11 @@
 [
   {
+    "name": "Limitless 1.1.30",
+    "tag_name": "v1.1.30",
+    "published_at": "2026-11-22T15:08:30Z",
+    "body": "### Клиент 1.1.30\r\n- **Client Spoof** теперь подставляет название клиента при подключении к серверу и в одиночной игре. В настройках доступны Vanilla, FlyVisuals и Custom. Пресет FlyVisuals отправляет flyvisuals,fabric.\r\n- **Atmosphere:** добавлен многослойный низкий туман, стандартный пресет сохраняет время мира.\r\n- Добавлены волны при прыжках и полосы ветра.\r\n"
+  },
+  {
     "name": "Limitless Launcher 1.8.5",
     "tag_name": "launcher-v1.8.5",
     "published_at": "2026-11-22T06:15:14Z",
