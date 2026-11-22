@@ -1,12 +1,12 @@
 {
-  "tag": "v1.1.29",
+  "tag": "launcher-v1.8.5",
   "version": "1.1.29",
-  "date": "2026-11-19",
+  "date": "2026-11-22",
   "launcher": {
     "file": "LimitlessLauncher.exe",
-    "sha256": "e83cd6b93856c24e07d96d7a2a75c4fe4647deb657d5f593708b85a60272d883",
-    "size": 6068224,
-    "version": "1.8.4"
+    "sha256": "7268a7a4e198104d0472ab721047ca567135e49075a337821d41016f1774820c",
+    "size": 6069760,
+    "version": "1.8.5"
   },
   "client": {
     "file": "limitless-client.jar",
